@@ -11,7 +11,9 @@ console.log(`Faktorial dari ${numberForFactorial} adalah ${factorial(numberForFa
 const numberForFibonacci = 10;
 console.log(`Deret Fibonacci hingga elemen ${numberForFibonacci} adalah:`);
 for (let i = 0; i <= numberForFibonacci; i++) {
-  console.log(fibonacci(i));
+  // Format output agar sesuai dengan yang diharapkan
+  const result = fibonacci(i);
+  console.log(`[ ${result.join(', ')} ]`);
 }
 
 /**
@@ -29,4 +31,3 @@ for (let i = 0; i <= numberForFibonacci; i++) {
  * [ 0, 1, 1, 2, 3, 5, 8, 13, 21, 34 ]
  * [ 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55 ]
  */
-

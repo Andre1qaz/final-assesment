@@ -1,0 +1,26 @@
+{
+  "name": "final-assesment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint ./"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Andre1qaz/final-assesment.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Andre1qaz/final-assesment/issues"
+  },
+  "homepage": "https://github.com/Andre1qaz/final-assesment#readme",
+  "devDependencies": {
+    "@eslint/js": "^9.29.0",
+    "eslint": "^9.29.0",
+    "eslint-config-dicodingacademy": "^0.9.5",
+    "globals": "^16.2.0"
+  }
+}
